@@ -59,13 +59,13 @@ button:hover {
 
 @media screen and (max-width:480px) {
     .contacts {
-        height: 800px;
+        height: 900px;
         display: flex;
         align-items: center;
     }
     .contacts h1 {
-        margin-bottom: 10%;
-        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-top: 10%;
     }
     .contents {
         width: 400px;
