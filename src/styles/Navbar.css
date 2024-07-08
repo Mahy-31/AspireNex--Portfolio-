@@ -32,12 +32,12 @@
         visibility: hidden;
     }
     .menu {
-        margin-left: 3%;
+        margin-left: 6%;
         width: auto;
     }
     .menu .menuList {
         color: white;
         font-size: 15px;
-        margin-right: 10%;
+        margin-right: 5%;
     }
 }
