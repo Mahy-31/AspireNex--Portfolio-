@@ -137,12 +137,15 @@
     .about {
         height: 1000px;
         padding-top: -20%;
+        display: flex;
+        align-items: center;
     }
     .aboutMe {
-        margin: 5% 0 15% 0;
+        margin: 5% 0 15% 5%;
+        max-width: 350px;
     }
     .skills {
-        width: 350px;
+        width: 360px;
         height:500px;
     }
     .languages {
