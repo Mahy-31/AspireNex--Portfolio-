@@ -33,10 +33,11 @@
     }
     .menu {
         margin-left: 3%;
+        width: auto;
     }
     .menu .menuList {
         color: white;
         font-size: 15px;
-        margin-right: 5%;
+        margin-right: 10%;
     }
 }

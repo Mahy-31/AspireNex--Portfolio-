@@ -59,13 +59,12 @@
         width: 480px;
         margin: 20%;
         display: flex;
-        align-items: center;
     }
     .project h1 {
         margin-top: 10%;
     }
     .projectBox {
-        width: 400px;
+        width: 450px;
         height: 1350px;
         padding-bottom: 85%;
     }

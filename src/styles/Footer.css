@@ -12,3 +12,12 @@
     color:white;
     margin: 0 0 0 10%;
 }
+
+@media screen and (max-width:480px){
+    .infos {
+        margin-left: 20%;
+    }
+    .infos a {
+        font-size: 25px;
+    }
+}
