@@ -1,0 +1,75 @@
+.contacts {
+    height: 850px;
+    background: linear-gradient(to right, black, rgb(20, 21, 21), black);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contacts h1 {
+    margin: 0 0 5%;
+}
+.contents {
+    background-color: rgb(14, 23, 23);
+    width:700px;
+    height: 600px;
+    padding: 3%;
+    box-shadow: 3px 3px 8px white;
+}
+.contents form{
+    display: flex;
+    flex-direction: column;
+}
+.contents form input {
+    margin-bottom: 3%;
+    height: 50px;
+    padding-left: 5%;
+    color: white;
+}
+.contents form label {
+    margin-bottom: 3%;
+    font-size: 20px;
+}
+.contents form input::placeholder {
+    color: white;
+}
+.contents form textarea {
+    height: 150px;
+    padding-left: 5%;
+    padding-top: 3%;
+}
+.contents form textarea::placeholder {
+    color: white;
+}
+.contents form button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    padding: 2px 2px 2px 2px;
+    height: 50px;
+    width:140px;
+    margin: 5% 0 0 40%;
+    border-radius: 0;
+    cursor: pointer;
+}
+button:hover {
+    box-shadow: 3px 2px 9px rgb(73, 232, 244);
+}
+
+@media screen and (max-width:480px) {
+    .contacts {
+        height: 800px;
+    }
+    .contacts h1 {
+        margin-bottom: 10%;
+    }
+    .contents {
+        width: 400px;
+        height: 500px;
+        padding-top: 7%;
+    }
+    .contents form button {
+        margin-left: 30%;
+    }
+}

@@ -1,0 +1,88 @@
+.project {
+    height: 1050px;
+    background: linear-gradient(to right, black, rgb(20, 21, 21), black);
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.project h1 {
+    text-align: center;
+    margin: 5%;
+}
+.projectBox {
+    background-color: rgb(23, 22, 22);
+    box-shadow: 2px 2px 15px rgb(57, 56, 56);
+    border-radius: 30px;
+    padding: 5% 0 0 5%;
+    width: 1000px;
+    height: 800px;
+    align-self: center;
+}
+.webdev .portfolio {
+    width:200px;
+    height: 150px;
+    margin: 5%;
+}
+.projectBox img {
+    width:200px;
+    height: 150px;
+    object-fit: cover;
+    margin: 5%;
+    filter: opacity(0.7);
+}
+.webdev .names {
+    margin: -2% 0 5% 11%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:40px;
+    justify-content: center;
+}
+.cppp .names {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:40px;
+    justify-content: center;
+    margin-left: 3%;
+}
+.cppp .pics {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:50px;
+    justify-content: center;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+@media screen and (max-width:480px) {
+    .project {
+        height: 1350px;
+    }
+    .project h1 {
+        margin-top: 10%;
+    }
+    .projectBox {
+        width: 350px;
+        height: 1300px;
+        padding-bottom: 85%;
+    }
+    .projectBox .webdev {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .webdev .names {
+        width: 600px;
+        transform: rotate(90deg);
+        margin: -95% 0 0 -50%;
+    }
+    .cppp .pics {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 120px;
+        margin-left: -3%;
+    }
+    .cppp .names {
+        width: 600px;
+        transform: rotate(90deg);
+        margin: -65% 0 0 -5%;
+    }
+}

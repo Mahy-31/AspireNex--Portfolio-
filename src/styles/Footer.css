@@ -1,0 +1,14 @@
+.footers {
+    height: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.infos {
+    width:200px;
+}
+.infos a {
+    color:white;
+    margin: 0 0 0 10%;
+}

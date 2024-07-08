@@ -1,0 +1,230 @@
+.about {
+    height: 1300px;
+    padding: 5% 10% 5% 10%;
+    background: linear-gradient(to right, black, rgb(20, 21, 21), black);
+    color: white;
+}
+.about h1 {
+    text-align: center;
+}
+.aboutMe {
+    font-weight: 200;
+    font-size: 20px;
+    max-width: 51rem;
+    text-align: center;
+    margin: 3% 0 0 13%;
+    line-height: 23px;
+}
+.skills {
+    margin: 5% 0 0 0;
+    padding: 2% 2% 2% 2%;
+    height: 900px;
+    width: 1100px;
+    background-color: rgb(23, 22, 22);
+    box-shadow: 2px 2px 15px rgb(57, 56, 56);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.skills h1 {
+    text-align: center;
+    margin: 2%;
+}
+.skills h2 {
+    margin: 3% 0 0 5%;
+}
+.cpp {
+    margin: 3% 0 5% 15%;
+    height: 150px;
+    width: 150px;
+    box-shadow: 2px 2px 2px rgb(49, 48, 48);
+    display: flex;
+    justify-content: center;
+    border-radius: 10%;
+}
+.cpp img {
+    height: 130px;
+    width: 130px;
+    margin: 4%;
+}
+.python {
+    margin: -19% 0 0 45%;
+    height: 150px;
+    width: 150px;
+    box-shadow: 2px 2px 2px rgb(49, 48, 48);
+    display: flex;
+    justify-content: center;
+    border-radius: 10%;
+}
+.python img {
+    height: 170px;
+    width: 230px;
+    margin: -15%;
+}
+.js {
+    margin: -14.5% 0 0 75%;
+    height: 150px;
+    width: 150px;
+    box-shadow: 2px 2px 2px rgb(49, 48, 48);
+    display: flex;
+    justify-content: center;
+    border-radius: 10%;
+}
+.js img {
+    height: 90px;
+    width: 90px;
+    margin: 17%;
+}
+.figma {
+    margin: 3% 0 5% 15%;
+    height: 150px;
+    width: 150px;
+    box-shadow: 2px 2px 2px rgb(49, 48, 48);
+    display: flex;
+    justify-content: center;
+    border-radius: 10%;
+}
+.figma img {
+    height: 90px;
+    width: 70px;
+    margin: 17%;
+}
+.vs {
+    margin: -19% 0 0 45%;
+    height: 150px;
+    width: 150px;
+    box-shadow: 2px 2px 2px rgb(49, 48, 48);
+    display: flex;
+    justify-content: center;
+    border-radius: 10%;
+}
+.vs img {
+    height: 90px;
+    width: 100px;
+    margin: 13%;
+}
+.react {
+    margin: 3% 0 5% 15%;
+    height: 150px;
+    width: 150px;
+    box-shadow: 2px 2px 2px rgb(49, 48, 48);
+    display: flex;
+    justify-content: center;
+    border-radius: 10%;
+}
+.react img {
+    height: 90px;
+    width: 90px;
+    margin: 17%;
+}
+.git {
+    margin: -19% 0 0 45%;
+    height: 150px;
+    width: 150px;
+    box-shadow: 2px 2px 2px rgb(49, 48, 48);
+    display: flex;
+    justify-content: center;
+    border-radius: 10%;
+}
+.git img {
+    height: 100px;
+    width: 170px;
+    margin: 13%;
+}
+
+@media screen and (max-width:480px){
+    .about {
+        height: 1000px;
+        padding-top: -20%;
+    }
+    .aboutMe {
+        margin: 5% 0 15% 0;
+    }
+    .skills {
+        width: 350px;
+        height:500px;
+    }
+    .languages {
+        display: grid;
+        grid-template-rows: 1fr;
+        place-items: center;
+        margin-bottom: 5%;
+    }
+    .cpp {
+        height: 70px;
+        width:70px;
+        margin: 5% 0 0 -58%;
+    }
+    .python{
+        height: 70px;
+        width:70px;
+        margin: -21% 0 0 -2%;
+    }
+    .js {
+        height: 70px;
+        width:70px;
+        margin: -21% 0 0 58%;
+    }
+    .cpp img {
+        height: 50px;
+        width: 50px;
+    }
+    .python img {
+        height: 100px;
+        width: 130px;
+        margin: -20%;
+    }
+    .js img {
+        height: 50px;
+        width: 50px;
+    }
+    .devTools {
+        display: grid;
+        grid-template-rows: 1fr;
+        place-items: center;
+        margin-bottom: 5%;
+    }
+    .figma {
+        height: 70px;
+        width:70px;
+        margin: 5% 0 0 -58%;
+    }
+    .vs{
+        height: 70px;
+        width:70px;
+        margin: -21% 0 0 -2%;
+    }
+    .figma img {
+        height: 50px;
+        width: 35px;
+    }
+    .vs img {
+        height: 50px;
+        width: 55px;
+    }
+    .ft {
+        display: grid;
+        grid-template-rows: 1fr;
+        place-items: center;
+        margin-bottom: 5%;
+    }
+    .react {
+        height: 70px;
+        width:70px;
+        margin: 5% 0 0 -58%;
+    }
+    .git {
+        height: 70px;
+        width:70px;
+        margin: -21% 0 0 -2%;
+    }
+    .react img {
+        height: 50px;
+        width: 50px;
+    }
+    .git img {
+        height: 50px;
+        width: 75px;
+    }
+}

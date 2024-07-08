@@ -1,0 +1,63 @@
+.home {
+    height: 615px;
+    font-family: sans-serif;
+    background: linear-gradient(to right, black, rgb(20, 21, 21), black);
+}
+.profile {
+    margin: 0 0 0 5%;
+}
+.content {
+    color: white;
+    margin: -30% 0 0 45%;
+}
+.content p {
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+.content h3 {
+    margin-bottom: 5%;
+    font-size: 30px;
+}
+.content h1 {
+    color: rgb(102, 222, 235);
+    font-size: 50px;
+    margin: -11.5% 0 5% 13%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.content h2 {
+    font-size: 30px;
+}
+button {
+    background-color: rgb(0, 34, 39);
+    color: white;
+    font-size: 17px;
+    padding: 2px 2px 2px 2px;
+    height: 50px;
+    width:140px;
+    margin: 5% 0 0 45%;
+    border-radius: 23px;
+    cursor: pointer;
+}
+button:hover {
+    box-shadow: 3px 2px 9px white;
+}
+
+@media screen and (max-width:480px) {
+    .content {
+        margin: -95% 0 0 3%;
+    }
+    .content h1 {
+        font-size: 40px;
+        margin: -3% 0 5% 0;
+        text-shadow: 3px 3px 7px black;
+    }
+    .content h2 {
+        text-shadow: 3px 3px 7px black;
+    }
+    .profile {
+        margin: 0 0 0 20%;
+    }
+    button {
+        margin: 5% 0 0 3%;
+    }
+}

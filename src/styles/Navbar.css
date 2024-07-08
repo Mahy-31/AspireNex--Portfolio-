@@ -1,0 +1,42 @@
+.Navbar{
+    background-color: black;
+    color: white;
+    height:100px;
+    width:1420px;
+    border-bottom: none;
+    box-shadow: none;
+    position: fixed;
+}
+.logo {
+    height: 90px;
+    width: 90px;
+    margin: 0 0 0 5%;
+}
+.menu {
+    margin: -3.5% 0 0 55%;
+}
+.menu .menuList {
+    margin-right: 10%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.menuList:hover {
+    font-size: 17px;
+    color: rgb(214, 238, 255);
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid rgb(214, 238, 255);
+}
+
+@media screen and (max-width:480px) {
+    .logo {
+        visibility: hidden;
+    }
+    .menu {
+        margin-left: 3%;
+    }
+    .menu .menuList {
+        color: white;
+        font-size: 15px;
+        margin-right: 5%;
+    }
+}
