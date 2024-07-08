@@ -57,17 +57,17 @@
     .project {
         height: 1350px;
         width: 480px;
-        margin: 20%;
         display: flex;
     }
     .project h1 {
         margin-top: 10%;
+        margin-bottom: 5%;
     }
     .projectBox {
         width: 450px;
         height: 1350px;
         padding-bottom: 85%;
-        margin-left: -5%;
+        margin-left: -10%;
     }
     .projectBox .webdev {
         display: grid;

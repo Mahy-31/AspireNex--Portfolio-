@@ -136,18 +136,21 @@
 @media screen and (max-width:480px){
     .about {
         height: 1100px;
-        padding-top: -10%;
+        padding-top: 10%;
         display: flex;
         flex-direction: column;
     }
+    .about h1 {
+        text-align: center;
+    }
     .aboutMe {
         margin: 5% 0 15% 5%;
-        width: 400px;
+        width: 420px;
     }
     .skills {
         width: 400px;
         height:500px;
-        margin-left: 20%;
+        margin-left: 15%;
     }
     .languages {
         display: grid;
